@@ -7,6 +7,6 @@ public class Main {
         double rate = 9.99; // годовая ставка %
 
         double CreditPayment = service.calculate(summa, period, rate);
-        System.out.println((int)CreditPayment + " Ваш ежемесячный платеж");
+        System.out.println((int) CreditPayment + " Ваш ежемесячный платеж");
     }
 }
